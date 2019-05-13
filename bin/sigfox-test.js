@@ -28,11 +28,14 @@ var clUtils = require('command-node'),
     request = require('request'),
     config = require('../config'),
     parameters = {
-        id: '8405',
-        time: '1430908992',
-        statin: '0817',
-        lng: -4,
-        lat: 41
+        //id: '8405',
+        device_id: 'sigApp3',
+        //time: '1430908992',
+        time: 1,
+        //statin: '0817',
+        statin: 2,
+        lng: 3,
+        lat: 4
     };
 
 function showParameters() {
